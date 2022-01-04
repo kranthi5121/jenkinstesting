@@ -1,6 +1,6 @@
 #!/bin/bash
 echo "running the script....!!!
-echo"............................."
+echo "............................."
 OS=$(cat /etc/lsb-release)
 echo "The os details are:  $OS"
 echo "..............................."
