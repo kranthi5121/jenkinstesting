@@ -1,0 +1,26 @@
+pipeline {
+    agent any
+
+    stages {
+        stage('Hello') {
+            steps {
+                echo 'Running pipeline from SCM'
+            }
+        }
+        stage('Build') {
+            steps {
+                echo 'Running build stage now'
+            }
+        }
+        stage('Test') {
+            steps {
+                echo 'Running Test stage now'
+            }
+        }
+        stage('Deploy') {
+            steps {
+                echo 'Running Deploy stage now'
+            }
+        }
+    }
+}
